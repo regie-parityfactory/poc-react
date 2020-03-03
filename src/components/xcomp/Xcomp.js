@@ -23,7 +23,7 @@ function Xcomp(props) {
     setHGOArrayUsers(hgoUsers);
     setAccountName(accountName);
     setLoggedInUser(loggedInUser);
-  }, []);
+  }, [props.location]);
 
   const onHandleToggleModal = e => {
     const passedName = e.target.name;
