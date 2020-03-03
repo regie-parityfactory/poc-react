@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#mainsidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #036b1d;
+}
+
+#mainsidebar ul li {
+    color: #fff;
+    list-style: none;
+    padding: 20px 10px;
+    border-bottom: 1px solid rgba(0, 128, 0);
+    ;
+
+}
+
+.dropdown {
+    width: 100%;
+    height: 4rem;
+    text-align: left;
+
+}
+
+
+#mainsidebar ul li:first-child {
+    border-top: 1px solid rgba(0, 128, 0);
+
+}

@@ -1,14 +1,21 @@
 import React from "react";
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
 import "./App.css";
 
-function App() {
+import MainView from "./components/mainview/MainView";
+import Xcomp from "./components/xcomp/Xcomp";
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello, Regie</h1>
-      </header>
-    </div>
+    <>
+      <div>
+        <Router>
+          <Route exact path="/" component={MainView} />
+          <Route exact path="/growerhaulerdetail" component={Xcomp} />
+        </Router>
+      </div>
+    </>
   );
 }
 

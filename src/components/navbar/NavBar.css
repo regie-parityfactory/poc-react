@@ -1,0 +1,32 @@
+#brandTitle {
+  margin-top: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+#searchBoxId {
+  margin-left: 1rem;
+}
+
+#hgoNavbar {
+  background-color: #036b1d;
+}
+
+#cardLogin {
+  border: 3px solid #036b1d
+}
+
+#linkMargin {
+  margin-top: 1.3rem;
+}
+
+#logOutId {
+  color: rgb(243, 111, 111);
+  font-size: small;
+}
+
+#logOutId:hover {
+  cursor: pointer;
+  background: #cecece;
+  padding: .1rem;
+}
