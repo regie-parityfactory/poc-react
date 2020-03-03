@@ -8,8 +8,7 @@ import {
   Navbar,
   NavbarBrand
 } from "reactstrap";
-import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import axios from "axios";
 
 import { useInputForm } from "../../hooks/useInputForm";
@@ -30,11 +29,6 @@ function MainView(props) {
   // Initialize states
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loading, setLoading] = useState(false);
-
-  // Icon spinner
-  const spinnerIcon = (
-    <FontAwesomeIcon icon={faCircleNotch} size={"2x"} color={"Gray"} />
-  );
 
   // Handle the toggle modal functionality
   const onHandleToggleModal = e => {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import XModal from "../modals/XModal";
 
 import "./UsersListComponent.css";
@@ -33,6 +33,9 @@ function UsersListComponent({
       );
 
       break;
+
+    default:
+      users = hgoArrayUsers;
   }
 
   const dataBody = (
@@ -44,7 +47,8 @@ function UsersListComponent({
               key={index}
               className="ml-2 usersHGOList"
               id={index}
-              onClick={() => onSelectUserFromList(u)}>
+              onClick={() => onSelectUserFromList(u)}
+            >
               {u.accountName}
             </li>
           );

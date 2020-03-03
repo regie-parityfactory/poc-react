@@ -17,7 +17,7 @@ function MainSideBar({ onHandleToggleModal }) {
           {" "}
           <UncontrolledDropdown>
             <DropdownToggle className="dropdown">
-              <span className="dropDownText">DASHBOARD</span>
+              <span className="drop-down-text">DASHBOARD</span>
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem>Dropdown 1</DropdownItem>
@@ -30,7 +30,7 @@ function MainSideBar({ onHandleToggleModal }) {
           {" "}
           <UncontrolledDropdown>
             <DropdownToggle className="dropdown">
-              <span className="dropDownText">RECEIVING</span>
+              <span className="drop-down-text">RECEIVING</span>
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem>Dropdown 1</DropdownItem>
@@ -43,7 +43,7 @@ function MainSideBar({ onHandleToggleModal }) {
           {" "}
           <UncontrolledDropdown>
             <DropdownToggle className="dropdown">
-              <span className="dropDownText">QUALITY</span>
+              <span className="drop-down-text">QUALITY</span>
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem>Dropdown 1</DropdownItem>
@@ -56,7 +56,7 @@ function MainSideBar({ onHandleToggleModal }) {
           {" "}
           <UncontrolledDropdown>
             <DropdownToggle className="dropdown">
-              <span className="dropDownText">DELIVERIES</span>
+              <span className="drop-down-text">DELIVERIES</span>
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem>Dropdown 1</DropdownItem>
@@ -69,7 +69,7 @@ function MainSideBar({ onHandleToggleModal }) {
           {" "}
           <UncontrolledDropdown>
             <DropdownToggle className="dropdown">
-              <span className="dropDownText">PAYMENTS</span>
+              <span className="drop-down-text">PAYMENTS</span>
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem>Dropdown 1</DropdownItem>
@@ -81,7 +81,7 @@ function MainSideBar({ onHandleToggleModal }) {
           {" "}
           <UncontrolledDropdown>
             <DropdownToggle className="dropdown">
-              <span className="dropDownText">USERS</span>
+              <span className="drop-down-text">USERS</span>
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem onClick={onHandleToggleModal} name="growers">
@@ -101,7 +101,7 @@ function MainSideBar({ onHandleToggleModal }) {
           {" "}
           <UncontrolledDropdown>
             <DropdownToggle className="dropdown">
-              <span className="dropDownText">SETTINGS</span>
+              <span className="drop-down-text">SETTINGS</span>
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem>Grower</DropdownItem>

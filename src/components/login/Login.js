@@ -31,6 +31,7 @@ function Login(props) {
         });
       })
       .catch(error => {
+        setLoading(false);
         alert(`Invalid Credentials - ${error.message}`);
       });
   };
