@@ -57,6 +57,7 @@ function MainView(props) {
           }
         })
         .catch(error => {
+          setLoading(false);
           alert(`There is an error - ${error.message}`);
         });
     }
